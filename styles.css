@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+/* NAV STYLES */
+
+nav {
+  height: 60px;
+  background-color: #003B46;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* HERO IMAGE STYLES */
+
+.hero-banner {
+  /* background-color: #66A5A5; */
+  background: url("images/zach-banner.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner-content {
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner-content h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.hero-banner-content button {
+  background-color: #66A5A5;
+  width: 80%;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.basic-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.basic-stats img {
+  width: 300px;
+}
+
+.stats-content-container {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stats-content-container h3 {
+  margin: 0;
+  font-family: sans-serif;
+  color: #66A5A5;
+}
+
+.stats-content-container ul {
+  list-style: none;
+  padding: 0;
+  color: #66A5A5;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg-inline--fa {
+  font-size: 40px;
+  color: #66A5A5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
